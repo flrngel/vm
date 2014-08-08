@@ -4,10 +4,10 @@
 
 ## Usage
 
-  vagrant up
+	vagrant up
 
 ## specs
 
 ### OS
 
-  Ubuntu trusty (14.04 LTS)
+Ubuntu trusty (14.04 LTS)
