@@ -32,10 +32,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     shell.path="ops/scripts/init.sh"
   end
 
-  # chef_solo
-  config.vm.provision "chef_solo" do |chef|
-  end
-
   # port forwarding
   config.vm.network "forwarded_port", guest:80, host:8080
 end
