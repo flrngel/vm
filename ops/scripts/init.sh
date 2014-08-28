@@ -8,7 +8,7 @@ deb-src http://ftp.daum.net/ubuntu/ trusty universe
 deb http://ftp.daum.net/ubuntu/ trusty multiverse
 deb-src http://ftp.daum.net/ubuntu/ trusty multiverse
 "
-sudo bash -c "echo '$REPO' > /etc/apt/sources.list"
+#sudo bash -c "echo '$REPO' > /etc/apt/sources.list"
 
 sudo apt-get check
 sudo apt-get update

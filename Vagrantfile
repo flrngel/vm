@@ -19,6 +19,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # set limit
   config.vm.provider "virtualbox" do |v|
     v.memory = 2048
+    v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
   end
 
   config.vm.define VM_HOSTNAME do |vm|
